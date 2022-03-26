@@ -1,0 +1,44 @@
+header {
+  background-image: url(../assets/background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  width: 100%;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  top: 76px;
+  left: 0;
+  width: 100%;
+  height: calc(85vh);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20vh;
+  text-align: center;
+  z-index: 2;
+  color: white;
+}
+
+header .text h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+/* header .description .text h1 {
+} */
+
+header svg {
+  margin-top: 43vh;
+  margin-right: 60vh;
+  text-align: center;
+  cursor: pointer;
+}
