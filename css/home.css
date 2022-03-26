@@ -33,12 +33,20 @@ header .text h1 {
   font-weight: bold;
 }
 
-/* header .description .text h1 {
-} */
-
 header svg {
   margin-top: 43vh;
   margin-right: 60vh;
   text-align: center;
   cursor: pointer;
+  animation: vertical_movement 1s ease-in-out infinite ;
+}
+
+@keyframes vertical_movement {
+  to   {
+    margin-top: 44vh;
+  }
+  from  {
+    margin-top: 43vh;
+  }
+
 }
