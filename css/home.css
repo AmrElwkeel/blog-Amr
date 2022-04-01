@@ -55,8 +55,6 @@ header svg {
 /* Section video-youtube */
 
 .video-youtube {
-  margin-top: 55px;
-  padding: 60px;
   background-color: #f7f7f7 ;
 }
 
@@ -70,3 +68,16 @@ header svg {
 .video-youtube .card-item {
   cursor: pointer;
 }
+
+
+
+/* Section Staff */
+
+.staff {
+  background-color: #f7f7f7 ;
+}
+
+
+
+
+/* Section  */
